@@ -1,0 +1,145 @@
+body{
+    font-family: kenia;
+}
+
+.Header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo > p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.Buttons{
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.Buttons > button{
+    margin-left: 40px;
+    width: 150px;
+    height: 35px;
+    font-family: solway;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.Buttons > button:hover{
+    background-color: rgb(121, 226, 121);
+}
+
+.Body{
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(https://thumbs.dreamstime.com/z/vegetables-fruits-over-grocery-store-background-organic-dieting-80689477.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ApplyButton > button{
+    margin-top: 20px;
+    margin-right: 200px;
+    width: 250px;
+    border-radius: 7px;
+    height: 50px;
+    font-family: solway;
+    font-size: 20px;
+}
+
+.ApplyButton > button:hover{
+    background-color: #ECE8E7;
+}
+
+.Middle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(121, 226, 121);
+}
+
+.Challenges{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Challenges_Text{
+    font-size: 40px;
+}
+
+.Challenges > p{
+    font-size: 30px;
+}
+
+.VL{
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+}
+
+.QNA{
+    margin-left: 20px;
+    width: 60%;
+}
+
+.Line{
+    height: 1px;
+    margin-top: 20px;
+    background-color: gray;
+}
+
+.Footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Title{
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.Offers > button{
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    font-family: solway;
+    margin-right: 10px;
+}
+
+.Offers > button:hover{
+    background-color: rgb(121, 226, 121);
+}
+
+@font-face {
+    font-family: kenia;
+    src: url(Kenia-Regular.ttf);
+}
+
+@font-face {
+    font-family: solway;
+    src: url(Solway-Regular.ttf);
+}
